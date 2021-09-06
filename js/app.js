@@ -1,0 +1,1 @@
+var headerTitle =    document.getElementById('siteTitle').innerHTML = `<a href="index.html">Albert Study Guide</a>`;
