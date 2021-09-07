@@ -1,17 +1,16 @@
 var cardHtml;
 
+
+
 var questions = [
-  `33. What is Boundary value testing?`,
-  `34. Why does the boundary value analysis provide good test cases?`,
-  `35. Why we use decision tables?`,
-  `36. What is white box testing and list the types of white box testing?`,
-  `37. In white box testing what do you verify?`,
-  `38. What is Gray Box Testing?`,
-  `39. What is the difference between static and dynamic testing?`,
-  `40. What is maintenance testing?`
+  `33.  DML (Data Manipulation Language) vs DDL (Data Definition Language)  `,
+  `34.  PL / SQL functions and Triggers in Oracle? `,
+  `35.  SQL JOIN JOINS  `,
+  `36.  UNION `,
+  `37.  How to find top 3 high paid employees?  `
 ]
 
-for (let i= 1, image=33, q=0; i< 9; i++, image++, q++) {
+for (let i= 1, image=33, q=0; i< 6; i++, image++, q++) {
     cardHtml += `<div class="card">
         <div class="card-header" id="headingThree">
           <h2 class="mb-0">
@@ -22,7 +21,7 @@ for (let i= 1, image=33, q=0; i< 9; i++, image++, q++) {
         </div>
         <div id="collapse${i}" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
           <div class="card-body">
-              <img src="images\\answer${image}.jpg" alt="">
+              <img src="images\\sql\\answer${image}.jpg" alt="">
           </div>
         </div>
         </div>`

@@ -19,3 +19,43 @@ var questions20 = [
     `39. What is the difference between static and dynamic testing?`,
     `40. What is maintenance testing?`
 ]
+
+var questions46 = [
+    `10. Difference between a Constructor and a Method? `,
+    `11.  What is the difference between a local variable and an instance variable?  `,
+    `12.  Object Oriented Programming (OOP)  `
+]
+
+var questions47 = [
+    `13.  What is encapsulation and how did you use it? `,
+    `14.  What is the concept of Abstraction?    `,
+    `15.  Difference between Abstraction and Encapsulation? `,
+    `16.  Difference between Abstract Class and Interface?  `,
+    `17.  What is Polymorphism?   `,
+    `18.  What is Inheritance?   `
+]
+
+var questions48 = [
+    `19.  Important terminology in  Inheritance? `,
+    `20.  Difference between Polymorphism and Inheritance`,
+    `21.  Difference between method Overloading and method Overriding?  `,
+    `22.  What is immutable ?`
+]
+
+var questions49 = [
+    `23.  What is static binding vs dynamic/runtime binding?   `,
+    `24.  What is Access modifier and what are the different access modifiers?`,
+    `25.  Difference between Public, Private and Protected modifier in Java?  `,
+    `26.  Difference between Set, List and Map in Java?   `,
+    `27.  When to use List, Set and Map?   `,
+    `28.  What is Array?   `
+]
+
+var questions104 = [
+    `33.  DML (Data Manipulation Language) vs DDL (Data Definition Language)  `,
+    `34.  PL / SQL functions and Triggers in Oracle? `,
+    `35.  SQL JOIN JOINS  `,
+    `36.  UNION `,
+    `37.  How to find top 3 high paid employees?  `
+]
+
