@@ -3,14 +3,13 @@ var cardHtml;
 
 
 var questions = [
-  `33.  DML (Data Manipulation Language) vs DDL (Data Definition Language)  `,
-  `34.  PL / SQL functions and Triggers in Oracle? `,
-  `35.  SQL JOIN JOINS  `,
-  `36.  UNION `,
-  `37.  How to find top 3 high paid employees?  `
+  `32.  How do you sort an object that you created?      `,
+  `33.  Difference between Hashtable and HashMap in Java?      `,
+  `34.  How would you handle Exception?     `,
+  
 ]
 
-for (let i= 1, image=33, q=0; i< 6; i++, image++, q++) {
+for (let i= 1, image=32, q=0; i< 4; i++, image++, q++) {
     cardHtml += `<div class="card">
         <div class="card-header" id="headingThree">
           <h2 class="mb-0">
@@ -21,7 +20,7 @@ for (let i= 1, image=33, q=0; i< 6; i++, image++, q++) {
         </div>
         <div id="collapse${i}" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
           <div class="card-body">
-              <img src="images\\sql\\answer${image}.jpg" alt="">
+              <img src="images\\java\\answer${image}.jpg" alt="">
           </div>
         </div>
         </div>`
