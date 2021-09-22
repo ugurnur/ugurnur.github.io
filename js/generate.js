@@ -3,13 +3,19 @@ var cardHtml;
 
 
 var questions = [
-  `32.  How do you sort an object that you created?      `,
-  `33.  Difference between Hashtable and HashMap in Java?      `,
-  `34.  How would you handle Exception?     `,
+  `1.    What is API?    `,
+  `2.    API vs Webservices?    `,
+  `3.    What is SoapUI? and how did you use it in your current project?  `,
+  `4.    Name of some commonly used HTTP methods in REST based architecture?  `,
+  `5.    HTML Status Codes?`,
+  `6.    What first thing you check when you get response?  `,
+  `7.    Http methods and request types  `
+
+
   
 ]
 
-for (let i= 1, image=32, q=0; i< 4; i++, image++, q++) {
+for (let i= 1, image=1, q=0; i< 8; i++, image++, q++) {
     cardHtml += `<div class="card">
         <div class="card-header" id="headingThree">
           <h2 class="mb-0">
@@ -20,7 +26,7 @@ for (let i= 1, image=32, q=0; i< 4; i++, image++, q++) {
         </div>
         <div id="collapse${i}" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
           <div class="card-body">
-              <img src="images\\java\\answer${image}.jpg" alt="">
+              <img src="images\\api\\answer${image}.jpg" alt="">
           </div>
         </div>
         </div>`
